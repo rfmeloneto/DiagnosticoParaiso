@@ -49,6 +49,7 @@
  @media (min-width: 320px) {
     .grid-container { grid-template-columns: repeat(1, 1fr); }
     .header {width: 750px;}
+    .tema {width: 750px;}
     .text-center{text-align: center;
         position: relative;
         top: 70%;
@@ -58,6 +59,7 @@
   @media (min-width: 400px) {
     .grid-container { grid-template-columns: repeat(2, 1fr); }
     .header {width:80rem;}
+    .tema {width:80rem;}
     .text-center{text-align: center;
         position: relative;
         top: 70%;
@@ -67,6 +69,7 @@
   @media (min-width: 800px) {
     .grid-container { grid-template-columns: repeat(2, 1fr); }
     .header {width:84.3rem;}
+    .tema {width:84.3rem;}
     .text-center{text-align: center;
         position: relative;
         top: 70%;
@@ -125,3 +128,31 @@ h2{
     top: 0px;  
     z-index:999;
 }
+
+.floating
+{   
+    display: flex;
+    position: fixed;
+    background-color:rgb(69, 139, 69);
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+    z-index: 1000; 
+    bottom: 20px;
+    right: 20px;
+    box-shadow: 3px 3px 5px grey;
+}
+
+
+.floating:hover
+{
+    scale: 1.5;
+}
+
+.texto-topo
+{
+    margin-top: 12px;
+    margin-left: 5px;
+}
+
+
